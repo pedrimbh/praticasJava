@@ -25,7 +25,7 @@ public class main {
 		car1.setShift(5);
 		
 		System.out.println("Color car: " + car1.getColor());
-		System.out.println("TopSpeed car: " + car1.getTopSpeed()+ " " + "/ Shifts " + car1.getShifits());		
+		System.out.println("TopSpeed car: " + car1.getTopSpeed()+ " ...." + "/ Shifts " + car1.getShifits());		
 		System.out.println("Hello Word " + person.getName() + person.getCpf()  );
 	}
 	
