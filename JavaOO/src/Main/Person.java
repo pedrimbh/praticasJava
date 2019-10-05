@@ -1,6 +1,6 @@
 package Main;
 
-public class Person {
+public class Person implements IPerson {
 	private String name;
 	private Integer age;
 	private String cpf;
@@ -30,6 +30,32 @@ public class Person {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+	
+	public String walk(String msg) {
+		return msg;
+	}
+	public String walk(String msg, Integer number) {
+		return msg + " " + number.toString();
+	}
+
+	@Override
+	public void method1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void method2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void method3() {
+		// TODO Auto-generated method stub
+		
+	}
+		
 //	public void say() {
 //		System.out.println("I'm saying something...");
 //	}
